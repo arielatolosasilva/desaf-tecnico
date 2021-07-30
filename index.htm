@@ -1,26 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
-</head>
-<body>
-
+  </head>
+  <body>
     <header class="header">
-        <a href="" class="logo">CSS Nav</a>
-        <input class="menu-btn" type="checkbox" id="menu-btn" />
-        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
-        <ul class="menu">
-          <li><a href="#">Servicios</a></li>
-          <li><a href="#">Precios</a></li>
-          <li><a href="#">Contacto</a></li>
-          <li><a href="#">Login</a></li>
-        </ul>
-      </header>
-
-  
-</body>
+      <div class="navbar">
+        <div class="logo"><span class="icon-baustack"></span></div>
+        <input type="checkbox" id="navbar-toggle" />
+        <label for="navbar-toggle"><i></i></label>
+        <nav class="menu">
+          <ul>
+            <li><span class="icon-services"></span> SERVICIOS</li>
+            <li><span class="icon-prices"></span>PRECIOS</li>
+            <li><span class="icon-contact"></span>CONTACTO</li>
+            <li><span class="icon-login"></span>LOGIN</li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="container">
+      <div class="container-img">
+        <img src="/assets/img/img-body.svg" alt="" />
+      </div>
+      <div class="container-text-btn">
+        <p class="paragraph">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor
+        </p>
+        <div class="container-btn">
+          <button><span class="span-btn"></span> PRUEBA GRATUITA</button>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
